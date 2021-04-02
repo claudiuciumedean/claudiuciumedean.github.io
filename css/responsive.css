@@ -1,0 +1,157 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer-details {font-size: 1.6rem;margin-left: 6rem;line-height: 15rem;}
+        .main-heading{font-size: 3rem;}
+            .about-text{font-size: 1.75rem;}
+    .skills-text-container{top: 8%;}
+        .skill-display{height: auto;margin-bottom: 20%;}
+            .skill-title{font-size: 1.2rem;}
+            .skill-description {font-size: 1.1rem;}
+    .text-container{top: 8%;}
+    .services-text-container{top: 5rem;}
+    .services-description{font-size: 1.2rem;height: 5rem;}
+    .contact-data-container{width:75%;}
+    .about-right-container{overflow-y: auto;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo-footer{height: 13rem;width: 13rem;}
+    .footer-details{margin-left: -0.5rem;font-size: 1.5rem;line-height: 13rem;}
+     .logo{ height: 20rem;width: 20rem;top: 5rem;}
+    .main-title{top: 32rem;}
+        .name-title{font-size: 4rem;}
+        .subname-title {font-size: 1.8rem;}
+    .main-background-container,main-img-container,.main-img {height: 140rem;}
+    .box-container{height: 115rem;top: 50rem;}
+        .big-content-box,.small-content-box,.contact-box{display: block;width: 50rem;margin: 0 auto;height: 25rem;}
+    footer{height: 27rem;}
+        .footer-container{top: 11rem;box-sizing: border-box;padding: 0 5rem;height: 12rem;}
+            .logo-footer{height: 12rem;width: 12rem;margin-bottom:-5rem;}
+            .footer-details {font-size: 1.35rem;line-height: 0;}
+    .text-container{top: 6%;}
+        .main-heading{font-size: 2.75rem;}
+        .about-text{font-size: 1.5rem;width: 90%;}
+    .skills-left-container{overflow-y: auto;}
+    .skills-text-container{top: 5%;}
+        .skill-display{height: auto;margin-bottom: 5%;width: 47%;margin-left:3%;}
+            .skill-title{font-size: 1.1rem;}
+            .skill-description {font-size: .9rem;}
+    .services-right-container{overflow: auto;}
+    .services-text-container{left: 6rem;}
+    .service-display{width: 40%;margin-bottom: 5%;}
+        .services-description {font-size: 1.1rem;height: 3rem;}
+    .contact-data-container{width:95%;}
+    .preloader-wrapper{width: 40%;}
+    .about-right-container{overflow-y: auto;}
+}
+@media screen and (max-width: 767px) {
+    .logo{ height: 20rem;width: 20rem;top: 5rem;}
+    .main-title{top: 32rem;}
+        .name-title{font-size: 4rem;}
+        .subname-title {font-size: 1.8rem;}
+    .main-background-container,main-img-container,.main-img {height: 140rem;}
+    .box-container{height: 115rem;top: 50rem;}
+        .big-content-box,.small-content-box,.contact-box{display: block;width: 50rem;margin: 0 auto;height: 25rem;}
+    footer{height: 27rem;}
+        .footer-container{top: 11rem;box-sizing: border-box;padding: 0 3.5rem;height: 11rem;}
+            .logo-footer{height: 11rem;width: 11rem;margin-bottom:-5rem;}
+            .footer-details {font-size: 1.35rem;line-height: 0;}
+    .text-container{width: 100%;top: 3%;padding: 0;}
+        .main-heading{font-size: 2.75rem;width: 45%;}
+            .about-text{font-size: 1.5rem;width: 80%;}
+    .skills-left-container{overflow-y: auto;}
+    .skills-text-container{top: 5%;padding: 0;right: 2rem;}
+        .skill-display{height: auto;margin-bottom: 15%;width: 45%;margin-left:3%;}
+            .skill-title{font-size: 1.1rem;}
+            .skill-description {font-size: .9rem;}
+    .services-right-container{overflow-y: auto;}
+        .service-display{width: 40%;}
+            .services-description {font-size: 1rem;height: 3rem;}
+    .contact-data-container{width:90%;}
+    .preloader-wrapper{width: 40%;}
+    .about-right-container{overflow-y: auto;}
+}
+@media (min-width: 481px) and (max-width: 707px) {
+    .logo-footer{display: none;}
+    .main-title{width: 70%;}
+    .box-container{height: 110rem;}
+    footer{height: 22rem;}
+        .footer-container{width: 46rem;height: 6rem;top: 12rem;}
+            .footer-details{top:2rem;padding-left: 2%;font-size: 1rem;}
+            .logo-footer{margin-bottom:-5rem;}
+    .big-content-box,.small-content-box,.contact-box{display: block;width: 80%;margin: 0 auto;height: 25rem;}
+        .box-text{font-size:  2.5rem;}
+    .about-right-container{overflow-y: auto;}
+    .text-container{height: 85%;width: 100%;position: absolute;top: 15%;left: 1rem;}
+        .about-text{width: 80%;}
+             .main-heading{font-size: 2.5rem;width: 20rem;}
+                    .about-text{font-size: 1.25rem;}
+     .services-description {margin-bottom: 40%;}
+    .services-right-container{overflow-y: auto;}
+    .services-text-container{left: 2rem;}
+        .service-display{width:44%;}
+    .contact-heading{width: 20rem;font-size: 2.5rem;}
+        .contact-subheading{font-size: 1.2rem;}
+    .contact-details-wrapper{width: 40rem;}
+        .contact-details-container{margin-right: 3rem;line-height: 3rem;}
+            .contact-icon {font-size: 2rem;}
+            .contact-detail{font-size: 1rem;}
+        .social-icon-container{width: 80%;}
+            .social-icon{font-size: 4rem;}
+    .about-right-container{overflow-y: auto;}
+}
+@media (max-width: 480px){
+  .logo{height: 17.5rem;width: 17.5rem;top: 2%;}
+    .main-title{top: 16%;width: 90%;}
+        .name-title{font-size: 3.5rem;}
+        .subname-title {font-size: 1.5rem;}
+    .main-background-container,main-img-container,.main-img {height: 135rem;}
+    .box-container{height: 108rem;top: 40rem;}
+        .big-content-box,.small-content-box,.contact-box{display: block;width: 80%;margin: 0 auto;height: 25rem;}
+            .box-text{font-size:  2.5rem;}
+    footer{height: 14rem;}
+        .footer-container{top: 6rem;box-sizing: border-box;padding: 0 1.2rem;height: 5rem;}
+            .logo-footer{display: none;}
+            .footer-details {font-size: 1.1rem;position: relative;top: 1.5rem;line-height: 0;padding-left: 1rem;}
+    .about-left-container{display: none;}
+    .about-right-container{width: 100%;}
+        .text-container{width: 80%; top: 15%;left: 0;right: 0;margin:0 auto;}
+            .main-heading{font-size: 3rem;display: block;margin: 0 auto;text-align: left;width: 100%;}
+            .about-text{font-size: 1.25rem;width: auto;}
+    .skills-right-container{display: none;}
+    .skills-left-container{width: 100%;}
+        .skills-text-container{top: 15%;}
+    .services-left-container{display: none;}
+    .services-right-container{width: 100%;overflow-y: auto;}
+        .services-text-container{left: 2rem;}
+    .contact-heading{width: 20rem;font-size: 2.5rem;}
+        .contact-subheading{font-size: 1.2rem;}
+    .contact-details-wrapper{width: 40rem;}
+        .contact-details-container{margin-right: 3rem;line-height: 3rem;}
+            .contact-icon {font-size: 2rem;}
+            .contact-detail{font-size: 1rem;}
+        .social-icon-container{width: 80%;}
+            .social-icon{font-size: 4rem;}
+    .preloader-wrapper{width: 50%;}
+    .about-right-container{overflow-y: auto;}
+}
+@media (max-width: 460px){
+    .footer-container{padding:0;display: block;width: 50%;text-align: center;margin: 0 auto;}
+    .footer-detail-none{display: none;}
+    .box-text{font-size:  2.5rem;}
+    .box-container{top: 40rem;}
+    .about-left-container{display: none;}
+    .about-right-container{width: 100%;}
+        .text-container{width: 80%; top: 15%;left: 0;right: 0;margin:0 auto;}
+            .main-heading{font-size: 3rem;display: block;margin: 0 auto;text-align: left;}
+            .about-text{font-size: 1.25rem;width: auto;}
+    .services-right-container{overflow-y: auto;}
+    .contact-heading{width: 15rem;font-size: 2rem;}
+        .contact-subheading{font-size: 1rem;}
+    .contact-details-wrapper{height: 10rem; width: 25rem; margin: 3rem auto 0;}
+        .contact-details-container{display:block;margin-right: 0rem;}
+    .social-icon-container{height: 9rem;margin: 3rem auto 0;}
+        .social-icon-wrapper{width: 20rem;}
+            .social-icon{font-size: 3rem;}
+            .social-icon-margin{margin-right: 3rem;}
+    .about-right-container{overflow-y: auto;}
+}

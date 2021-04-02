@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,900,600,500,300,100,800,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald:300);
+@font-face {font-family:'Arkhip';src: url('../font/Arkhip_font.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+
+html,body{height: 100%;margin: 0; padding: 0;}
+body{font-family: 'Work Sans', sans-serif;overflow-x:hidden}
+:root{font-size: 10px;}
+.cf:before,.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+
+.main-background-container{height: 140rem; width: 100%;position: relative;}
+    .main-img-container,.main-img{height: 140rem; width: 100%;position: relative;}
+    .logo{height: 25rem; width: 25rem;position: absolute; margin:0 auto; right: 0; left: 0;top: 6rem;}
+        .svg-first-c{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:300;stroke-dashoffset:300;opacity: 0;}
+            .svg-first-c-animation{-webkit-animation:dash-letter .25s linear forwards;-webkit-animation-delay:3.15s;
+                                  -moz-animation:dash-letter .25s linear forwards;-moz-animation-delay:3.15s;animation: dash-letter .25s linear forwards;animation-delay: 3.15s;}
+        .svg-letter-b{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:300;stroke-dashoffset:300;opacity: 0;}
+            .svg-letter-b-animation{-webkit-animation: dash-letter .25s linear forwards;-webkit-animation-delay: 3.2s;
+                                    -moz-animation: dash-letter .25s linear forwards;-moz-animation-delay: 3.2s;animation: dash-letter .25s linear forwards;animation-delay: 3.2s;}
+        .svg-second-c{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:300;stroke-dashoffset:300;opacity: 0;}
+            .svg-second-c-animation{-webkit-animation: dash-letter .25s linear forwards;-webkit-animation-delay: 3.25s;
+                                    -moz-animation: dash-letter .25s linear forwards;-moz-animation-delay: 3.25s;animation: dash-letter .25s linear forwards;animation-delay: 3.25s;}
+        .svg-year{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;stroke-dasharray:300;stroke-dashoffset:300;opacity: 0;}
+            .svg-year-animation{-webkit-animation: dash-letter .25s linear forwards;-webkit-animation-delay: 3.3s;
+                                -moz-animation: dash-letter .25s linear forwards;-moz-animation-delay: 3.3s;animation: dash-letter .25s linear forwards;animation-delay: 3.3s;}
+            @-webkit-keyframes dash-letter {to {opacity: 1;stroke-dashoffset: 0;stroke:none;}}
+            @-moz-keyframes dash-letter {to {opacity: 1;stroke-dashoffset: 0;stroke:none;}}
+            @keyframes dash-letter {to {opacity: 1;stroke-dashoffset: 0;stroke:none;}}
+        .svg-first-line{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:150;stroke-dashoffset:150;}
+            .svg-first-line-animation{-webkit-animation: dash-line .5s linear forwards;-webkit-animation-delay: 3.35s;
+                                      -moz-animation: dash-line .5s linear forwards;-moz-animation-delay: 3.35s;-ms-animation: dash-line .5s linear forwards;-ms-animation-delay: 3.35s;animation: dash-line .5s linear forwards;animation-delay: 3.35s;}
+        .svg-second-line{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:150;stroke-dashoffset:150;}
+            .svg-second-line-animation{-webkit-animation: dash-line .5s linear forwards;-webkit-animation-delay: 3.4s;
+                                       -moz-animation: dash-line .5s linear forwards;-moz-animation-delay: 3.4s;animation: dash-line .5s linear forwards;animation-delay: 3.4s;}
+            @-webkit-keyframes dash-line {to {stroke-dashoffset: 0;}}
+            @-moz-keyframes dash-line {to {stroke-dashoffset: 0;}}
+            @keyframes dash-line {to {stroke-dashoffset: 0;}}
+        .svg-romb{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray: 750;stroke-dashoffset: 750;}
+            .svg-romb-animation{-webkit-animation: dash-romb .75s linear forwards;-webkit-animation-delay:3.45s;
+                                -moz-animation: dash-romb .75s linear forwards;-moz-animation-delay: 3.45s;animation: dash-romb .75s linear forwards;animation-delay: 3.45s;}
+            @-webkit-keyframes dash-romb {to {stroke-dashoffset: 0;}}
+            @-moz-keyframes dash-romb {to {stroke-dashoffset: 0;}}
+            @keyframes dash-romb {to {stroke-dashoffset: 0;}}
+        .st2{font-family:'Arkhip';}
+        .st3{font-size:4.8rem;}
+        .st4{font-size:1.78259rem;}
+        .st5{font-size:4.6rem;}
+    .main-title{height: 12rem;width: 60rem;position: absolute;right:0;left: 0;top:35rem; margin: 0 auto;text-align: center;opacity: 0;
+                animation-name: big-fade-in;animation-play-state: running;animation-duration: .5s;animation-fill-mode: forwards;
+                animation-delay:3.9s;}
+        .name-title{font-size: 5rem;color: #f6f6f6;font-family: 'Oswald', sans-serif;font-weight: 300; border-bottom: 0.15rem solid #f6f6f6;}
+        .subname-title{font-size:2rem; color: #f6f6f6;line-height: 5rem;font-weight: 300;}
+
+.box-container{height: 90rem;position: absolute;top: 60rem;left: 0;right: 0; margin: 0 auto;opacity: 0;animation-name: big-fade-in;
+              animation-play-state: running;animation-duration: .75s;animation-fill-mode: forwards;animation-delay:3.9s;}
+    .small-content-box{height: 30rem;padding: 0;overflow: hidden;cursor: pointer;}
+        .bg-box-img{height: 100%;width: 100%; position: relative;transition: transform 3s ease-in-out;}
+            .bg-box-img:hover{transform: scale(1.3);}
+        .box-text{height: 3.5rem; width: 100%;position: absolute;top: 0;bottom: 0;margin: auto;color: #f6f6f6;font-size: 3rem;text-align: center;font-weight: 300;}
+    .big-content-box{height: 60rem;padding: 0;overflow: hidden;cursor: pointer;}
+    @keyframes big-fade-in {from {opacity: 0;-webkit-transform: translateY(100%);transform: translateY(100%);}
+                           to {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}
+    @-webkit-keyframes big-fade-in {from {opacity: 0;-webkit-transform: translateY(100%);transform: translateY(100%);}
+                                   to {-webkit-transform: translateY(0);transform: translateY(0);opacity: 1;}}
+
+footer{height: 30rem;width: 100%;position: relative; background-color: #f6f6f6;}
+    .footer-container{height: 15rem;position: absolute;top: 12rem;left: 0;right: 0;}
+        .logo-footer{height: 15rem;width: 15rem;margin: 0;}
+            .st01{fill:none;stroke:#666666;stroke-width:2;stroke-miterlimit:10;}
+            .st11{fill:#666666;}
+            .st21{font-family:'Arkhip';}
+            .st31{font-size:30.639px;}
+            .st41{font-size:11.3785px;}
+            .st51{font-size:29.3624px;}
+        .footer-details{font-size: 1.8rem;line-height: 16rem;color: #666666;}
+
+.slide-container{-webkit-transition: all .75s ease-in-out;-moz-transition: all .75s ease-in-out;-o-transition:all .75s ease-in-out;transition: all .75s ease-in-out;}
+.about-slide-container{height: 100%;width:100%;position: fixed;top: 0;bottom: 0;right: 0;transform: translateX(100%);}
+    .about-left-container{height: 100%;width: 50%;float: left;position: relative;left:0;top: 0;
+                          background-image: url(../img/about-bg-container.jpeg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .about-right-container{height: 100%;width: 50%;float: left; position: relative;top:0;right: 0;padding: 0; background-color: #f6f6f6;
+                          background-image:url(../img/poly-bg.svg);background-size: cover;background-repeat: repeat;background-position: center;}
+        .close-button{position: fixed;top: 2rem;right: 2rem;cursor: pointer;}
+            .fa-3x{font-size: 2.5rem;}
+        .text-container{height: auto;width: 90%;position: absolute;top: 10%;left: 5rem;margin: 0;}
+            .main-heading{width: 25rem;font-size: 3.5rem;border-bottom: .1rem solid #666666;font-weight: 600;opacity: 0;}
+            .about-text{width: 80%;margin-top: 10%;font-size: 2rem;color: #000000;text-align: justify;font-weight: 400;opacity: 0;}
+               .fade-in {-webkit-animation-name: fade-in;animation-name: fade-in;-webkit-animation-duration:.75s;animation-duration: .75s;
+                          -webkit-animation-delay: .6s;animation-delay: .6s;animation-fill-mode: forwards;}
+               @keyframes fade-in {from {opacity: 0;-webkit-transform: translateY(100%);transform: translateY(100%);}
+                                   to {opacity: 1;-webkit-transform: none;transform: none;}}
+               @-webkit-keyframes fade-in {from {opacity: 0;-webkit-transform: translateY(100%);transform: translateY(100%);}
+                                   to {opacity: 1;-webkit-transform: none;transform: none;}}
+
+.skills-slide-container{height: 100%;width:100%;position: fixed;top: 0;bottom: 0;right: 0;transform: translateX(100%);}
+    .skills-left-container{height: 100%;width: 50%;float: left;position: relative;left:0;top:0;padding:0;background-color: #f6f6f6;
+                          background-image:url(../img/poly-bg-modified.svg);background-size:cover;background-repeat:repeat;background-position: center;}
+    .skills-text-container{height: 85%;width: 90%;position: absolute;top: 10rem;right: 5rem;margin: 0;box-sizing: border-box;padding: 3rem;}
+        .skill-wrapper{height: 90%;width: 100%;float: right;margin-top: 2rem;text-align: right;opacity: 0;}
+            .skill-display{width: 27%;height: 37%;float: left;margin-left: 6%;margin-bottom: 9%;text-align: center;}
+                .skill-svg{width: 65%;}
+                .skill-title{font-size: 1.4rem;font-weight: 600;}
+                .skill-description{height: 2rem; font-size: 1.2rem;font-weight: 400;}
+    .skills-right-container{height: 100%;width: 50%;float: left;position: relative;left:0;top: 0;
+                          background-image: url(../img/skills-bg-container.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+                .fade-in-left{-webkit-animation-name: fade-in-left;animation-name: fade-in-left;-webkit-animation-duration:.85s;
+                              animation-duration:.85s;-webkit-animation-delay: .6s;animation-delay: .6s;animation-fill-mode: forwards;}
+                @keyframes fade-in-left {from {opacity: 0;-webkit-transform: translateX(-100%);transform: translateX(-100%);}
+                                        to {opacity: 1;-webkit-transform: none;transform: none;}}
+
+.services-slide-container{height: 100%;width:100%;position: fixed;top: 0;bottom: 0;right: 0;transform: translateX(100%);}
+    .services-left-container{height: 100%;width: 50%;float: left;position: relative;left:0;top: 0;
+                             background-image:url(../img/services-bg-container.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;}
+    .services-right-container{height: 100%;width: 50%;float: left; position: relative;top:0;right: 0;padding: 0; background-color: #f6f6f6;
+                              background-image:url(../img/poly-bg.svg);background-size: cover;background-repeat: repeat;background-position: center;}
+        .services-text-container{height: 85%;width: 90%;position: absolute;top: 10rem;left: 5rem;margin: 0;}
+            .service-display{width: 27%;height: 37%;float: left;margin-left: 6%;margin-bottom: 9%;text-align: center;}
+                .services-description{font-size: 1.35rem;font-weight: 500;height: 5rem;}
+                .fade-in-right{-webkit-animation-name: fade-in-right;animation-name: fade-in-right;-webkit-animation-duration:.85s;
+                               -webkit-animation-fill-mode: forwards;animation-duration:.85s;-webkit-animation-delay: .6s;
+                               animation-delay: .6s;animation-fill-mode: forwards;}
+                @keyframes fade-in-right {from {opacity: 0;-webkit-transform: translateX(100%);transform: translateX(100%);}
+                                        to {opacity: 1;-webkit-transform: none;transform: none;}}
+                @-webkit-keyframes fade-in-right {from {opacity: 0;-webkit-transform: translateX(100%);transform: translateX(100%);}
+                                        to {opacity: 1;-webkit-transform: none;transform: none;}}
+
+.contact-slide-container{height: 100%;width:100%;position: fixed;top: 0;bottom: 0;right: 0;transform: translateX(100%);}
+    #map-container{width: 100%;height: 50%;}
+        a[href^="http://maps.google.com/maps"]{display:none !important}
+        a[href^="https://maps.google.com/maps"]{display:none !important}
+        .gmnoprint a, .gmnoprint span, .gm-style-cc {display:none;}
+        .gmnoprint div {background:none !important;}
+    .bottom-container{height: 50%;width:100%;background-image: url(../img/contact-bottom-bg.jpg);
+                      background-position: center;background-size: cover;background-repeat: no-repeat;}
+    .contact-data-container{height:auto;width: 60%;position: absolute;top: 30%;left: 0;right: 0;margin: 0 auto;box-sizing: border-box;
+                            padding:3% 0;background-color:#666666;opacity: 0;}
+        .contact-heading-container{text-align: center;}
+            .contact-heading{display: block;width: 25rem;margin:0 auto 1rem auto;border-bottom: .1rem solid #f6f6f6;font-size: 3.5rem;
+                            font-weight: 600;color: #f6f6f6;}
+            .contact-subheading{font-weight: 300;font-size: 1.5rem;color: #f6f6f6;}
+        .contact-details-wrapper{height: 5rem;width: 95%;box-sizing: border-box;padding: 0 1rem;display: block;margin: 5rem auto 0;
+                                 text-align: center;}
+            .contact-details-container{margin-right: 5rem;}
+                .contact-icon{color: #f6f6f6;margin-right: 1rem;}
+                .contact-detail{color: #f6f6f6;font-size: 1.2rem;}
+        .social-icon-container{height: 12rem;width: 50%;display: block; margin:5rem auto 0;text-align:center;}
+            .social-icon-wrapper{height: 5rem;width: 35rem;display: block;margin:3rem auto 0 auto;}
+                .social-icon{color: #f6f6f6;font-size: 4rem;}
+                .social-icon-margin{margin-right: 7.5rem;}
+
+.preload-container{height: 100%;width: 100%;position: fixed;transform: translateY(0%);bottom: 0;right: 0;left: 0;overflow: hidden;
+                   -webkit-animation-name:fade-out;-webkit-animation-duration:0.6s;-webkit-animation-fill-mode:forwards;
+                   -webkit-animation-delay:3s;animation-name:fade-out;animation-duration:0.6s;animation-fill-mode:forwards;}
+    .preload-container-animation{}
+                    @keyframes fade-out {from {transform: translateY(0%);}
+                                        to {transform: translateY(-100%);}}
+                    @-webkit-keyframes fade-out {from {transform: translateY(0%);}
+                                                to {transform: translateY(-100%);}}
+    .preload-left-section{height: 100%;width: 50%;float: left;margin: 0; background-color: #f6f6f6;
+                          background-image: url(../img/poly-bg-modified.svg);background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .preload-right-section{height: 100%;width: 50%;float: left;margin: 0;background-color: #f6f6f6;background-image: url(../img/poly-bg.svg);
+                          background-size: cover;background-position: center;background-repeat: no-repeat;}
+    .preloader-wrapper{height: 5rem;width:25%;position: absolute;left: 0;right: 0;margin: auto;top: 0;bottom: 0;text-align: center;}
+        .preloader-wrapper span{font-size: 1.5rem;color: #666666;font-weight: 500;}
+        .preloader{height: 3rem;width:100%;border: 0.2rem solid #666666;
+                       box-sizing: border-box;padding: 0.5rem;}
+            .loading-bar{height: 100%;width: 0%;background-color: #666666;}
+                .loading-bar-animation{-webkit-animation-name: loading;-webkit-animation-duration:3s;
+                                       -webkit-animation-fill-mode:forwards;animation-name: loading;animation-duration: 3s;animation-fill-mode:forwards}
+            @keyframes loading {from {width: 0%;}
+                                50%{width: 50%;}
+                                to {width: 100%;}}
+            @-webkit-keyframes loading {from {width: 0%;}
+                                        50%{width: 50%;}
+                                        to {width: 100%;}}
